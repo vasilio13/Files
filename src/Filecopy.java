@@ -6,8 +6,8 @@ public class Filecopy {
     public static void main(String[] args) {
 
         try {
-            Path source = Paths.get("/home/uzver/Circle.java");
-            Path target = Paths.get("/home/uzver/Circle3.java");
+            Path source = Paths.get("e:/files/data.txt");
+            Path target = Paths.get("e:/files/data2.txt");
 
             Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
         } catch (InvalidPathException e) {
