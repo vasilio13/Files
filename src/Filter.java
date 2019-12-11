@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Filter {
     public static void main(String[] args) {
         ArrayList<String> str = new ArrayList<>();
-        File file = new File("E:/files/data.txt");
+        File file = new File("/home/uzver/dz1111/Box.java");
 
         try (Scanner scanner = new Scanner(new FileReader(file))) {
 
