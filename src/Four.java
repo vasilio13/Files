@@ -52,7 +52,7 @@ public class Four {
             while (it.hasNext())
                 System.out.println(it.next());
 
-        System.out.println("количество уникальных слов: "+wordsOne.size());
+        System.out.println("количество униkальных слов: "+wordsOne.size());
         System.out.println("директорий поиска: "+dirjava);
         for (int i=0; i<s.length; i++)
             System.out.println("использовался .java файл: "+s[i]);
