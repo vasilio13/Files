@@ -13,7 +13,7 @@ public class Four {
         int counterWords = 0;
 
         System.out.println("start");
-        File dirjava = new File("/home/uzver/dz1111/");
+        File dirjava = new File("e:/workspace/");///home/uzver/dz1111/
         FilenameFilter javaext = new OnlyExt("java");
         String s[] = dirjava.list(javaext);
 
